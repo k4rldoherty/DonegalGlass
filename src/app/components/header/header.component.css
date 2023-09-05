@@ -38,7 +38,7 @@ a.logo:hover {
 }
 
 .navbar-mobile {
-    display: none;
+    /* display: none; */
     position: absolute;
     top: 60px;
     left: 0;
@@ -73,7 +73,7 @@ a.logo:hover {
     text-decoration: underline;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1022px) {
     .burger{
         display: block;
     }
