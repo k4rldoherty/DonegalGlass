@@ -1,0 +1,17 @@
+<header class="header">
+    <header class="header">
+        <a class="logo" href="#">Donegal Glass</a>
+        <nav class="navbar">
+            <a href="#">-Home</a>
+            <a href="#">-About</a>
+            <a href="#">-Services</a>
+            <a href="#">-Contact</a>
+        </nav>
+        <fa-icon class="burger" [icon]="faBars" (click)="openNav()"></fa-icon>
+        <nav class="navbar-mobile" *ngIf="burgerClicked">
+            <a href="#">-Home</a>
+            <a href="#">-About</a>
+            <a href="#">-Services</a>
+            <a href="#">-Contact</a>
+        </nav>
+</header>

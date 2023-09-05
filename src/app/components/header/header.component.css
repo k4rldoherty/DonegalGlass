@@ -1,0 +1,84 @@
+
+.header{
+    width: 100%;
+    position: fixed;
+    background-color: var(--primary-color);
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+a.logo:hover {
+    color: var(--extra-color-one);
+    transition: .3s;
+    text-decoration: underline;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    animation: slideTop .5s ease forwards;
+}
+
+.navbar a {
+    color: var(--secondary-color);
+    font-size: 20px;
+    display: inline-block;
+    transition: .3s;
+    margin-left: 35px;
+    font-weight: 500;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+}
+
+.navbar-mobile {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.navbar-mobile a {
+    display: block;
+    padding: 10px;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.navbar-mobile.show {
+    display: block;
+}
+
+.navbar-mobile a:hover {
+    color: var(--extra-color-one);
+    text-decoration: underline;
+}
+
+.burger {
+    display: none;
+    color: var(--secondary-color);
+}
+
+.navbar a:hover {
+    color: var(--extra-color-one);
+    text-decoration: underline;
+}
+
+@media (max-width: 1023px) {
+    .burger{
+        display: block;
+    }
+
+    .navbar a {
+        display: none;
+    }
+}
