@@ -13,7 +13,7 @@
 }
 
 a.logo:hover {
-    color: var(--extra-color-one);
+    color: var(--extra-color-two);
     transition: .3s;
     text-decoration: underline;
 }
@@ -59,7 +59,7 @@ a.logo:hover {
 }
 
 .navbar-mobile a:hover {
-    color: var(--extra-color-one);
+    color: var(--extra-color-two);
     text-decoration: underline;
 }
 
@@ -69,7 +69,7 @@ a.logo:hover {
 }
 
 .navbar a:hover {
-    color: var(--extra-color-one);
+    color: var(--extra-color-two);
     text-decoration: underline;
 }
 
