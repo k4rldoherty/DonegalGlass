@@ -17,8 +17,6 @@ export class HeaderComponent implements OnInit {
 
   openNav() {
     this.burgerClicked = !this.burgerClicked;
-    console.log("SJHDAKJHD");
-    
   }
 
 }

@@ -1,0 +1,10 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container {
+    display: flex;
+    height: 81.40vh;
+    margin-top: 65px;
+}
