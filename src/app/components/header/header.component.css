@@ -2,7 +2,7 @@
 .header{
     width: 100%;
     position: fixed;
-    background-color: var(--primary-color);
+    background-color: var(--extra-color-two);
     top: 0;
     left: 0;
     padding: 20px 10%;
@@ -13,7 +13,7 @@
 }
 
 a.logo:hover {
-    color: var(--extra-color-two);
+    color: var(--primary-color);
     transition: .3s;
     text-decoration: underline;
 }
@@ -43,7 +43,7 @@ a.logo:hover {
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: var(--primary-color);
+    background-color: var(--extra-color-two);
     text-align: center;
 }
 
@@ -59,7 +59,7 @@ a.logo:hover {
 }
 
 .navbar-mobile a:hover {
-    color: var(--extra-color-two);
+    color: var(--primary-color);
     text-decoration: underline;
 }
 
@@ -69,7 +69,7 @@ a.logo:hover {
 }
 
 .navbar a:hover {
-    color: var(--extra-color-two);
+    color: var(--primary-color);
     text-decoration: underline;
 }
 
