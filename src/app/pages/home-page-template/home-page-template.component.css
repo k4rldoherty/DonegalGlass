@@ -41,9 +41,46 @@
     border-radius: 5px;
 }
 
+/*----------------------------------------------------------*/
+
+.about-container {
+    display: flex;
+    padding: 5% 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--secondary-background);
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.about-right {
+    display: flex;
+    max-width: 30vw;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 30vw;
+}
+
+.about-left img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*----------------------------------------------------------*/
+
 .services-container {
     width: 100%;
-    padding: 20px 10%;
+    padding: 5% 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,16 +118,18 @@
     height: 100%;
     width: 100%;
     border-radius: 10px;
-} 
+}
+
+/*----------------------------------------------------------*/
 
 .benefits-container {
     width: 100%;
-    padding: 20px 10%;
+    padding: 5% 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-background);
 }
 
 .benefits {
@@ -111,16 +150,19 @@
     text-align: center;
     border-radius: 10px;
     gap: 20px;
-    color: var(--secondary-color);
+    color: var(--text-color-primary);
 }
 
 .buttonbenefit {
     padding: 10px 5%;
     border: none;
     border-radius: 5px;
-    background-color: var(--secondary-color);
-    color: var(--text-color-primary);
+    background-color: var(--primary-color);
+    color: var(--text-color-secondary);
 }
+
+/*----------------------------------------------------------*/
+
 
 @media (max-width: 1022px) {
 
@@ -148,4 +190,21 @@
         width: 60%;
         height: 50vw;
     }
+
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .about-left {
+        max-width: 70vw;
+    }
+
+    .about-right {
+        max-width: 100%
+    }
 }
+
+/*----------------------------------------------------------*/
