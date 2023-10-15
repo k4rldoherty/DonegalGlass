@@ -1,0 +1,5 @@
+Home Page:
+    Add Customer Testimonials Section
+    Zoom photos on hover
+    Improve Styling on footer hover
+    

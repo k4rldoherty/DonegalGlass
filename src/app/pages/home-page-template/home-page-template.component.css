@@ -31,6 +31,7 @@
     border-radius: 10px;
     gap: 10px;
     text-align: center;
+    animation: slideRight .5s ease forwards;
 }
 
 .button {
@@ -57,11 +58,14 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
+    animation: slideRight .5s ease forwards;
 }
 
 .about-right {
     display: flex;
+    flex-direction: column;
     max-width: 30vw;
+    gap: 2vh;
 }
 
 .about-left {
@@ -93,6 +97,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    animation: slideRight .5s ease forwards;
 }
 
 .service {
@@ -138,6 +143,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    animation: slideRight .5s ease forwards;
 }
 
 .benefit {
