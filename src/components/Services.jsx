@@ -22,7 +22,7 @@ const Services = () => {
             <h3 className='text-5xl md:text-6xl font-bold'>Plan your next project with us</h3>
             <p className='text-2xl py-6'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae in dignissimos accusantium nulla magni quas quaerat</p>
             <p className='pb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quae illum maxime eveniet, iste doloribus facilis itaque inventore odio hic quidem alias maiores soluta nihil ratione! Eius, accusamus enim. Ea?</p>
-            <button className='bg-gradient-to-r from-zinc-900 to-emerald-700 text-[--text-light] rounded-md font-medium w-[250px] m-0 my-6 p-3'>Contact Us</button>
+            <button className='bg-gradient-to-r from-zinc-900 to-emerald-700 text-[--text-light] rounded-md font-medium w-[250px] m-0 my-6 p-3'>Learn More</button>
         </div>
     </div>
   )

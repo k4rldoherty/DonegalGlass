@@ -36,7 +36,7 @@ const Hero = () => {
                         <ReactTyped className='text-[--primary] font-bold md:text-5xl sm:text-4xl text-xl' strings={['Doors', 'Windows', 'Bathrooms', 'Stairs']} typeSpeed={200} backSpeed={200} loop />
                     </div>
                     <p className='md:text-2xl text-xl font-bold text-[--text-dark] py-2'>Integer nec urna nec nisl bibendum finibus non quis odio.</p>
-                    <button className='bg-gradient-to-r from-zinc-900 to-emerald-700 text-[--text-light] rounded-md font-medium my-6 mx-auto p-3'>Find Out More</button>
+                    <button className='bg-gradient-to-r from-amber-400 to-orange-500 rounded-md font-medium my-6 mx-auto p-3'>Start your Journey</button>
 
                 </div>
             </div>
