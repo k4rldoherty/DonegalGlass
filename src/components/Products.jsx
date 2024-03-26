@@ -1,5 +1,5 @@
 import React from 'react'
-import comingSoon from '../images/comingSoon.jpeg'
+// import comingSoon from '../images/comingSoon.jpeg'
 import glassStairs from '../images/glass_stairs_caro.jpg'
 import glassBalco from '../images/glass_balcony_caro.jpeg'
 import glassOffice from '../images/glass_office_caro.jpeg'
