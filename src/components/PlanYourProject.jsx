@@ -6,7 +6,7 @@ import stairs from '../images/stairs.jpg'
 import splashback from '../images/splashback.jpg'
 
 
-const Services = () => {
+const PlanYourProject = () => {
   return (
     <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-2 gap-4'>
         {/* Left */}
@@ -28,4 +28,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default PlanYourProject
