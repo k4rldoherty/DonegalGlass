@@ -12,7 +12,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='flex text-xl justify-between items-center h-24 mx-auto px-4 bg-[--secondary] border-b-2 border-gray-700'>
+        <div className='flex justify-between items-center h-24 mx-auto px-4 bg-[--secondary] border-b-2 border-gray-700'>
             <img src={logo} alt="" className='h-[100%] w-auto select-none' />
             {/* <p className='flex flex-row items-center gap-2 font-bold'><AiFillMail/>info@donegalglass.ie</p>
             <p className='flex flex-row items-center gap-2 font-bold'><AiFillPhone/>(086) 7372838</p> */}
