@@ -43,9 +43,9 @@ const Testimonials = () => {
                 <div className="grid mb-8 lg:mb-12 lg:grid-cols-2 gap-2">
                     {
                         testimonials.map((t) => {
-                            return <figure key={t.id} className="flex flex-col justify-center items-center p-8 text-center bg-gradient-to-r from-zinc-800 to-emerald-700 border-b border-gray-200 md:p-12 lg:border-r rounded-md text-[--text-light]">
+                            return <figure key={t.id} className="flex flex-col justify-center items-center p-8 text-center border-b border-gray-200 md:p-12 lg:border-r rounded-md text-[--text-dark]">
                                 <blockquote className="mx-auto mb-8 max-w-2xl">
-                                    <h3 className="text-lg font-semibold text-[--accent] ">{t.header}</h3>
+                                    <h3 className="text-lg font-semibold text-[--primary] ">{t.header}</h3>
                                     <p className='my-4'>"{t.review}"</p>
                                 </blockquote>
                                 <figcaption className="flex justify-center items-center space-x-3">
@@ -59,7 +59,6 @@ const Testimonials = () => {
                     }
 
                 </div>
-
             </div>
         </div>
     )

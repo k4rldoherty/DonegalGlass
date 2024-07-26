@@ -6,17 +6,17 @@ const Team = () => {
     const team = [
         {
             id: 1,
-            name: "John Mc Glinchey",
+            name: "Person 1",
             role: "CEO"
         },
         {
             id: 2,
-            name: "Darren Mc Glinchey",
+            name: "Person 2",
             role: "Director"
         },
         {
             id: 3,
-            name: "Catherine Mc Glinchey",
+            name: "Person 3",
             role: "Marketing"
         },
         {

@@ -1,11 +1,11 @@
 import React from 'react'
 // import comingSoon from '../images/comingSoon.jpeg'
-import glassStairs from '../images/glass_stairs_caro.jpg'
-import glassBalco from '../images/glass_balcony_caro.jpeg'
-import glassOffice from '../images/glass_office_caro.jpeg'
-import splash from '../images/splashback_caro.jpg'
-import wetroom from '../images/shower_wetroom.jpg'
-import upvc from '../images/upvcDoors_caro.jpg'
+import service1 from '../images/service1.jpg'
+import service2 from '../images/service2.jpg'
+import service3 from '../images/service3.jpg'
+import service4 from '../images/service4.jpg'
+import service5 from '../images/service5.jpg'
+import service6 from '../images/service6.jpg'
 
 const Products = () => {
 
@@ -13,33 +13,33 @@ const Products = () => {
     const products = [
         {
             id: 1,
-            header : "Glass Stairs",
-            image : glassStairs
+            header : "Service 1",
+            image : service1
         },
         {
             id: 2,
-            header : "Glass Balustrade and Balconies",
-            image : glassBalco
+            header : "Service 2",
+            image : service2
         },
         {
             id: 3,
-            header : "Glass Screens and Offices",
-            image : glassOffice
+            header : "Service 3",
+            image : service3
         },
         {
             id: 4,
-            header : "Glass Splashbacks",
-            image : splash
+            header : "Service 4",
+            image : service4
         },
         {
             id: 5,
-            header : "Wet Rooms and Showers",
-            image : wetroom
+            header : "Service 5",
+            image : service5
         },
         {
             id: 6,
-            header : "UPVC Doors and Windows",
-            image : upvc
+            header : "Service 6",
+            image : service6
         },
     ]
 
@@ -48,7 +48,7 @@ const Products = () => {
         <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>
             <div className='mx-auto max-w-screen-sm'>
                 <h2 className='mb-4 text-4xl font-extrabold'>Our Services</h2>
-                <p className='mb-8 font-light lg:mb-16 sm:text-xl'>We offer a range of different products such as doors, windows, Baulastrades and Balconies and more..</p>
+                <p className='mb-8 font-light lg:mb-16 sm:text-xl'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem eveniet tempora ad officiis, harum aliquid. Dolorum, necessitatibus id. Laboriosam expedita necessitatibus exercitationem ratione animi veritatis iure sapiente iusto est maiores.</p>
             </div>
             <div className='grid mb-8 font-light lg:mb-12 lg:grid-cols-3 gap-2'>
                 {
@@ -64,7 +64,7 @@ const Products = () => {
                 }
 
             </div>
-            <p className='mb-8 font-bold lg:mb-16 sm:text-xl'>We also offer a Supply & Fitting service, Maintenance Contract, Complete Design, Management, and Installation Package as well as 24/7 emergency call out service.</p>
+            <p className='mb-8 font-bold lg:mb-16 sm:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nulla aliquam magnam, quas sint non quisquam et sequi natus alias provident qui architecto aut rem debitis adipisci beatae voluptates? Tempore!</p>
         </div>
     </div>
   )
