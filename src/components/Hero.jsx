@@ -33,7 +33,7 @@ const Hero = () => {
                     <p className='text-[--primary] sm:text-2xl text-xl font-bold py-2'>Donegal's #1 Building Contractors</p>
                     <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 py-4'>Finn View Construction</h1>
                     <div className='flex justify-center items-center p-4'>
-                        <ReactTyped className='text-[--primary] font-bold md:text-5xl sm:text-4xl text-xl' strings={['Doors', 'Windows', 'Bathrooms', 'Stairs']} typeSpeed={200} backSpeed={200} loop />
+                        <ReactTyped className='text-[--primary] font-bold md:text-5xl sm:text-4xl text-xl' strings={['Homes', 'Businesses', 'Industrial']} typeSpeed={200} backSpeed={200} loop />
                     </div>
                     <p className='md:text-2xl text-xl font-bold text-[--text-dark] py-2'>Integer nec urna nec nisl bibendum finibus non quis odio.</p>
                     <button className='bg-[--primary] rounded-md font-medium my-6 mx-auto p-3'>Start your Journey</button>
