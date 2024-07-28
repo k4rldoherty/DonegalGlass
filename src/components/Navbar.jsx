@@ -26,11 +26,11 @@ const Navbar = () => {
                 {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
             </div>
             <div  className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[--secondary] text-[--text-dark] ease-in-out duration-700 select-none z-50' : 'fixed left-[-100%]'}>
-                <h2 className='w-full text-2xl font-bold text-[--primary] p-8'>Finn View Construction</h2>
+                <img src={logo} className='p-4 w-[75%] h-auto select-none' />
                 <ul className='uppercase p-4'>
                     <li className='p-4 border-b border-[--secondary]'><Link to={"/"}>Home</Link></li>
                     <li className='p-4 border-b border-[--secondary]'><Link to={"/about"}>About</Link></li>
-                    <li className='p-4 border-b border-[--secondary]'>Services</li>
+                    <li className='p-4 border-b border-[--secondary]'><Link to={"/services"}></Link>Services</li>
                     <li className='p-4 border-b border-[--secondary]'>Contact</li>
                 </ul>
             </div>
